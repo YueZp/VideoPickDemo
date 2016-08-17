@@ -38,8 +38,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tv_VideoTitle = (TextView) findViewById(R.id.tv_video_title);
         iv_VideoImage = (ImageView) findViewById(R.id.iv_video_image);
         btn_getVideo = (Button) findViewById(R.id.btn_get_video);
-
-
     }
 
     @Override
