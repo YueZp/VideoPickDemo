@@ -1,0 +1,9 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">VideoPickDemo</string>
+
+    <string name="path">视频地址：<xliff:g id="url">%1$s</xliff:g></string>
+    <string name="title">视频标题：<xliff:g id="name">%1$s</xliff:g></string>
+    <string name="duration">视频时长：<xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="size">视频大小：<xliff:g id="size">%1$s</xliff:g></string>
+
+</resources>
