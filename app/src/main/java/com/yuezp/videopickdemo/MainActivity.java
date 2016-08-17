@@ -52,7 +52,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if (resultCode == RESULT_OK) {
                 Uri uri = data.getData();
                 ContentResolver cr = this.getContentResolver();
-                /** 数据库查询操作。
+                /**
+                 * 数据库查询操作。
                  * 第一个参数 uri：为要查询的数据库+表的名称。
                  * 第二个参数 projection ： 要查询的列。
                  * 第三个参数 selection ： 查询的条件，相当于SQL where。
